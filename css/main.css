@@ -208,6 +208,7 @@ a.button-blue:active {
 .row-img {
 	display: flex;
 	justify-content: center;
+	flex-wrap: nowrap;
 }
 
 .block-img {
@@ -669,13 +670,13 @@ div.row-img {
 }
 
 div.block-img {
-	width: 106.25px;
-	height: 105px;
+	width: 100px;
+	height: 100px;
 }
 
 div.block-img1 {
-	width: 106.25px;
-	height: 105px;
+	width: 100px;
+	height: 100px;
 }
 
 }
@@ -713,13 +714,13 @@ p.description {
 }
 
 div.block-img {
-	width: 93.6px;
-	height: 93px;
+	width: 85px;
+	height: 85px;
 }
 
 div.block-img1 {
-	width: 93.5px;
-	height: 93px;
+	width: 85px;
+	height: 85px;
 }
 
 .fifth-block {
@@ -807,13 +808,13 @@ div.features {
 }
 
 div.block-img {
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 }
 
 div.block-img1 {
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 }
 
 }
