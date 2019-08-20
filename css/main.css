@@ -271,6 +271,10 @@ div.block-img {
 	height: 220px;
 }
 
+div.skill-bar img {
+	width: 100%;
+}
+
 .fifth-block {
 	height: 500px;
 }
