@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="js/main.js">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -20,17 +21,25 @@
 					</div>
 
 					<div class="col-lg-11 flex-nav">
-						<nav>
-							<ul class="list-inline">
-								<li class="active"><a href="#" class="link">Home</a></li>
-								<li><a href="#" class="link">About</a></li>
-								<li><a href="#" class="link">Work</a></li>
-								<li><a href="#" class="link">Procces</a></li>
-								<li><a href="#" class="link">Services</a></li>
-								<li><a href="#" class="link">Testimonials</a></li>
-								<li><a href="#" class="link">Contact</a></li>
-							</ul>
-						</nav>
+						<div class="wrapper">
+							<input type="checkbox" id="check-menu">
+        					<label for="check-menu"></label>
+        					<div class="burger-line first"></div>
+        					<div class="burger-line second"></div>
+        					<div class="burger-line third"></div>
+        					<div class="burger-line fourth"></div>
+							<nav class="main-menu">
+								<ul class="list-inline">
+									<li class="active"><a href="#" class="link">Home</a></li>
+									<li><a href="#" class="link">About</a></li>
+									<li><a href="#" class="link">Work</a></li>
+									<li><a href="#" class="link">Procces</a></li>
+									<li><a href="#" class="link">Services</a></li>
+									<li><a href="#" class="link">Testimonials</a></li>
+									<li><a href="#" class="link">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -113,34 +122,42 @@
 			<div class="features">
 
 				<div class="col-lg-3">
-					<img class="icon_feature" src="img/icon_1.png" alt="Icon">
-					<div class="feature">
-						<h4>548</h4>
-						<p>Projects Completed</p>
+					<div class="feature_wrap">
+						<span class="pe-7s-portfolio icon_feature"></span>
+						<div class="feature">
+							<h4>548</h4>
+							<p>Projects Completed</p>
+						</div>
 					</div>
 				</div>
 				
 				<div class="col-lg-3">
-					<img class="icon_feature" src="img/icon_2.png" alt="Icon">
-					<div class="feature">
-						<h4>1465</h4>
-						<p>Working Hours</p>
+					<div class="feature_wrap">
+						<span class="pe-7s-clock icon_feature"></span>
+						<div class="feature">
+							<h4>1465</h4>
+							<p>Working Hours</p>
+						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-3">
-					<img class="icon_feature" src="img/icon_3.png" alt="Icon">
-					<div class="feature">
-						<h4>612</h4>
-						<p>Positive Feedbacks</p>
+					<div class="feature_wrap">
+						<span class="pe-7s-star icon_feature"></span>
+						<div class="feature">
+							<h4>612</h4>
+							<p>Positive Feedbacks</p>
+						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-3">
-					<img class="icon_feature" src="img/icon_4.png" alt="Icon">
-					<div class="feature">
-						<h4>735</h4>
-						<p>Happy Clients</p>
+					<div class="feature_wrap">
+						<span class="pe-7s-like icon_feature"></span>
+						<div class="feature">
+							<h4>735</h4>
+							<p>Happy Clients</p>
+						</div>
 					</div>
 				</div>
 			</div>
