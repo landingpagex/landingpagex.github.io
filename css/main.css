@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 html {
@@ -230,4 +231,132 @@ ul li {
 	color: #FF66CC;
 	border-bottom: 1px solid #FF66CC;
 	transition: 0.3s;
+}
+
+.follow {
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+
+.follow a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.follow a:hover {
+	text-decoration: none;
+}
+
+.follow_instagram {
+	color: #bc2a8d;
+	list-style: none;
+	font-size: 20px;
+	border-radius: 50%;
+	border: 2px solid #bc2a8d;
+	width: 31px;
+	height: 31px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.follow_instagram:hover {
+	border-color: #FF33FF;
+	box-shadow: 0px 0px 10px #FF33FF;
+	color: #FF33FF;
+	transition: 0.1s;
+}
+
+.follow span {
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 11px;
+}
+
+.follow h4 {
+	padding-top: 15px;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+.follow p {
+	padding-top: 20px;
+	font-size: 17px;
+	padding-bottom: 100px;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	background: #151515;
+	text-align: center;
+	padding-top: 25px;	
+	padding-bottom: 15px;
+}
+
+footer ul li {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.social {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+}
+.social a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.social_item {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s;
+}
+
+.facebook:hover {
+	border-color: #3333FF;
+	box-shadow: 0px 0px 20px #3333FF;
+	color: #3333FF;
+}
+
+.vk:hover {
+	border-color: #0066CC;
+	box-shadow: 0px 0px 20px #0066CC;
+	color: #0066CC;
+}
+
+.instagram:hover {
+	border-color: #bc2a8d;
+	box-shadow: 0px 0px 20px #bc2a8d;
+	color: #bc2a8d;
+}
+
+.twitter:hover {
+	border-color: #3399FF;
+	box-shadow: 0px 0px 20px #3399FF;
+	color: #3399FF;
+}
+
+footer h5 {
+	color: #fff;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+footer h5:hover {
+	color: #FF66CC;
+	transition: 0.5s;
 }
