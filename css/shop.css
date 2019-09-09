@@ -1,0 +1,54 @@
+.products {
+	padding-top: 100px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.products p {
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: .2em;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+.products .container-fluid {
+	padding-left: 11%;
+	padding-right: 11%;
+}
+
+.card {
+	margin-bottom: 30px;
+}
+
+.view.overlay {
+	width: 346.58px;
+	height: 346.58px;
+}
+
+.page-link {
+	border: 1px solid ##fafafa;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	color: #FF66CC;
+}
+
+.page-link:hover {
+	color: #FF66CC;
+}
+
+.new {
+	display: inline-block;
+}
+
+.page-item.active .page-link {
+	background-color: #FF66CC;
+	border-color: #FF66CC;
+}
+
+.page-link:hover {
+	
+}
+
+.pagination_b {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}

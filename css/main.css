@@ -144,6 +144,8 @@ ul li {
 	padding-right: 5px;
 	border-radius: 10px;
 	font-weight: 200;
+	box-shadow: 0 0 5px rgba(255, 0, 102, 0.8);
+	margin-left: 3px;
 }
 
 .prod_section {
@@ -366,7 +368,7 @@ footer h5:hover {
     background-color: #fff;
     position: relative;
     text-align: center;
-    height: 40px;
+    height: 60px;
     font-family: 'Oswald', sans-serif;
     display: none;
     z-index: 5;
@@ -376,8 +378,15 @@ footer h5:hover {
     display: none;
 }
 
+.mobile_logo {
+    width: auto;
+    max-width: 100%;
+    max-height: 50px;
+}
+
 label{
-    display: block;
+    display: flex;
+    align-items: center;
     position: absolute;
     text-align: left;
     padding-left: 20px;
@@ -391,13 +400,9 @@ label{
     color: #66CCFF;
 }
 
-label span {
-	color: #FF33FF;
-}
-
 .burger-line{
     position: absolute;
-    top: 8px;
+    top: 18px;
     right: 10px;
     width: 35px;
     height: 2px;
@@ -405,12 +410,39 @@ label span {
     transition: .5s all;
 }
 
+.link-basket {
+	letter-spacing: .1em;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e294f3;
+    font-weight: 600;
+    position: relative;
+    top: 7px;
+}
+
+a.link-basket:hover {
+	color: #686868;
+	text-decoration: none;
+}
+
+.basket_mobile {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 60px;
+	padding-top: 8px;
+}
+
+.basket_mobile i {
+	font-size: 26px;
+}
+
 .second, .third{
-    top: 18px;
+    top: 28px;
 }
 
 .fourth{
-    top: 28px;
+    top: 38px;
 }
 
 .main-menu{
@@ -442,7 +474,7 @@ label span {
 
 #check-menu:checked ~ .main-menu{
     max-height: 500px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #check-menu:checked ~ .first{
@@ -516,6 +548,42 @@ label span {
 
 }
 
+@media only screen and (max-width: 992px) {
+.top-nav .col-lg-auto {
+	width: auto;
+}
+
+.section_about .row {
+	flex-wrap: nowrap;
+}
+
+.section_popular .row {
+	flex-wrap: nowrap;
+}
+
+.new {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 800px) {
+.offer_text {
+	padding: 0;
+	padding-left: 40px;
+}
+
+.offer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.offer .row {
+	justify-content: flex-start;
+}
+
+}
+
 /* Tablet ---------------------------------- */
 @media only screen and (max-width: 768px) {
 .wrapper {
@@ -524,6 +592,11 @@ label span {
 
 .header_menu {
 	display: none;
+}
+
+.section_popular .container {
+	max-width: 720px;
+
 }
 
 .section_bg {
@@ -547,27 +620,67 @@ label span {
 }
 
 .offer_text {
-	padding-top: 110px;
-	padding-left: 100px;
+	padding-top: 0;
+	padding-left: 30px;
 }
 
 .offer_text p {
-	width: 600px;
-	font-size: 28px;
+	width: auto;
+	font-size: 32px;
 }
 
 .offer_text h4 {
-	font-size: 36px;
+	font-size: 40px;
 }
 
 .more {
 	font-size: 17px;
 }
 
+.offer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.offer .row {
+	justify-content: flex-start;
+}
+
+
+}
+
+@media only screen and (max-width: 750px) {
+.section_popular .container {
+	max-width: 600px;
+
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+.offer_text p {
+	font-size: 24px;
+}
+
 }
 
 /* Mobile L -------------------------------- */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
+
+.offer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.offer .row {
+	justify-content: center;
+}
+
+.offer_text {
+	padding: 0;
+}
 
 .section_about .row {
 	flex-wrap: wrap;
@@ -606,13 +719,12 @@ label span {
 
 .offer_text {
 	padding: 0;
-	padding-top: 90px;
-	padding-left: 8px;
 	text-align: center;
 }
 
 .offer_text p {
-	width: 410px;
+	width: auto;
+	font-size: 23px;
 }
 
 .social_item {
@@ -627,8 +739,6 @@ label span {
 
 .offer_text {
 	padding: 0;
-	padding-top: 100px;
-	padding-left: 12px;
 	text-align: center;
 }
 
@@ -645,8 +755,16 @@ label span {
 }
 
 .offer_text p {
-	width: 350px;
+	width: auto;
 	font-size: 22px;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.offer_text p {
+	font-size: 18px;
 }
 
 }
@@ -655,7 +773,7 @@ label span {
 @media only screen and (max-width: 320px) {
 
 .offer_text {
-	padding-top: 70px;
+	padding: 0;
 }
 
 .about-slime h2 {
@@ -669,18 +787,45 @@ label span {
 }
 
 .offer_text p {
-	width: 300px;
-	font-size: 19px;
+	width: auto;
+	font-size: 17px;
 }
 
 .offer {
 	height: 400px;
 }
 
+.social_item {
+	width: 45px;
+	height: 45px;
+}
+
 }
 
 /* Mobile XS ------------------------------- */
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 300px) {
 
+.social_item {
+	border: 3px solid #fff;
+}
+
+footer ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.social_item {
+	width: 35px;
+	height: 35px;
+}
+
+.offer_text h4 {
+	font-size: 30px;
+}
+
+.offer_text p {
+	font-size: 16px;
+}
 
 }
