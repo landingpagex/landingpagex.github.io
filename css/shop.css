@@ -20,11 +20,6 @@
 	margin-bottom: 30px;
 }
 
-.view.overlay {
-	width: 346.58px;
-	height: 346.58px;
-}
-
 .page-link {
 	border: 1px solid ##fafafa;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
@@ -51,4 +46,119 @@
 .pagination_b {
 	padding-top: 10px;
 	padding-bottom: 20px;
+}
+
+/* Desktops and laptops -------------------- */
+@media only screen and (max-width: 1230px) {
+
+.products .container-fluid {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+}
+
+@media only screen and (max-width: 1152px) {
+
+.products .container-fluid {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+a.product-name {
+	font-size: 16px;
+}
+
+.new {
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 14px;
+	margin-left: 1px;
+}
+
+}
+
+/* Laptop ---------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+.products .container-fluid {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+a.product-name {
+	font-size: 20px;
+}
+
+.new {
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: 15px;
+	margin-left: 2px;
+}
+
+}
+
+/* Tablet ---------------------------------- */
+@media only screen and (max-width: 768px) {
+
+a.product-name {
+	font-size: 24px;
+}
+
+.new {
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 18px;
+	margin-left: 3px;
+}
+
+}
+
+/* Mobile L -------------------------------- */
+@media only screen and (max-width: 425px) {
+
+nav.pagination_b ul li {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+a.product-name {
+	font-size: 22px;
+}
+
+.new {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 16px;
+	margin-left: 1px;
+}
+
+}
+
+/* Mobile M -------------------------------- */
+@media only screen and (max-width: 375px) {
+
+
+}
+
+/* Mobile S -------------------------------- */
+@media only screen and (max-width: 320px) {
+
+.products {
+	padding-top: 60px;
+}
+
+.new {
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 17px;
+}
+
+}
+
+/* Mobile XS ------------------------------- */
+@media only screen and (max-width: 240px) {
+
+
 }
