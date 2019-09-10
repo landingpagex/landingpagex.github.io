@@ -12,6 +12,60 @@ body {
 
 }
 
+.section_bg {
+	background-image: url("../img/slider_01.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg_text {
+	color: #666699;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 600;
+	text-align: center;
+	background-color: rgba(250, 160, 241, 0.7);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg_text h2 {
+	font-size: 48px;
+	font-weight: 600;
+	overflow: hidden;
+}
+
+.bg_text h2:before,
+.bg_text h2:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 3px;
+	background: #666699;
+
+}
+
+.bg_text h2:before {
+	margin-left: -100%;
+}
+
+.bg_text h2:after {
+	margin-right: -100%;
+}
+
+.bg_text p {
+	font-size: 32px;
+}
+
 .top-nav {
 	background-color: #fff;
 	padding-top: 20px;
@@ -75,15 +129,6 @@ ul li {
 	min-width: 140px;
 }
 
-.section_bg {
-	background-image: url("../img/bg_hearts.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px;
-	width: 100%;
-}
-
 .about-slime {
 	padding-top: 60px;
 	text-align: center;
@@ -136,6 +181,7 @@ ul li {
 	font-size: 16px;
 	padding-bottom: 80px;
 }
+
 
 .new {
 	color: #fff;
@@ -517,6 +563,21 @@ a.link-basket:hover {
 
 /* Laptop ---------------------------------- */
 @media only screen and (max-width: 1024px) {
+
+.slider_text {
+	font-size: 36px;
+}
+
+.slider-img1 {
+	height: 500px;
+}
+.slider-img2 {
+	height: 500px;
+}
+.slider-img3 {
+	height: 500px;
+}
+
 .top-nav {
 	padding: 0;
 	padding-top: 10px;
@@ -586,6 +647,21 @@ a.link-basket:hover {
 
 /* Tablet ---------------------------------- */
 @media only screen and (max-width: 768px) {
+
+.slider_text {
+	font-size: 32px;
+}
+
+.slider-img1 {
+	height: 400px;
+}
+.slider-img2 {
+	height: 400px;
+}
+.slider-img3 {
+	height: 400px;
+}
+
 .wrapper {
 	display: block;
 }
@@ -655,6 +731,21 @@ a.link-basket:hover {
 	max-width: 600px;
 
 }
+
+.bg_text {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg_text h2 {
+	font-size: 32px;
+}
+
+.bg_text p {
+	font-size: 24px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -667,6 +758,23 @@ a.link-basket:hover {
 
 /* Mobile L -------------------------------- */
 @media only screen and (max-width: 430px) {
+
+.bg_text {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg_text h2 {
+	font-size: 28px;
+}
+
+.bg_text p {
+	font-size: 18px;
+}
+
+
 
 .offer {
 	display: flex;
@@ -737,6 +845,25 @@ a.link-basket:hover {
 /* Mobile M -------------------------------- */
 @media only screen and (max-width: 375px) {
 
+.bg_text {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg_text h2 {
+	font-size: 24px;
+}
+
+.bg_text p {
+	font-size: 14px;
+}
+
+.slider_text {
+	font-size: 24px;
+}
+
 .offer_text {
 	padding: 0;
 	text-align: center;
@@ -771,6 +898,35 @@ a.link-basket:hover {
 
 /* Mobile S -------------------------------- */
 @media only screen and (max-width: 320px) {
+
+.bg_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bg_text h2 {
+	font-size: 23px;
+}
+
+.bg_text p {
+	font-size: 14px;
+}
+
+.slider_text {
+	font-size: 22px;
+}
+
+.slider-img1 {
+	height: 200px;
+}
+.slider-img2 {
+	height: 200px;
+}
+.slider-img3 {
+	height: 200px;
+}
 
 .offer_text {
 	padding: 0;
