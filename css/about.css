@@ -86,7 +86,7 @@
 /* Mobile L -------------------------------- */
 @media only screen and (max-width: 430px) {
 .section_background {
-	height: 350px;
+	height: 250px;
 }
 
 .about-us p {
@@ -108,7 +108,9 @@
 
 /* Mobile M -------------------------------- */
 @media only screen and (max-width: 375px) {
-
+.section_background {
+	height: 200px;
+}
 
 }
 
