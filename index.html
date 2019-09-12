@@ -94,19 +94,19 @@
 				</div>
 			</div>
 
-			<div class="row justify-content-around wow fadeInUp">
+			<div class="row justify-content-around">
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 wow fadeInUp">
 					<i class="slime_feature far fa-hand-peace"></i>
 					<p class="slime_fe">Развивает мелкую моторику рук во время игры</p>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 wow fadeInUp">
 					<i class="slime_feature far fa-lightbulb"></i>
 					<p class="slime_fe">Развивает творческое и абстрактное мышление</p>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 wow fadeInUp">
 					<i class="slime_feature far fa-laugh-beam"></i>
 					<p class="slime_fe">Эффективно снимает стресс и напряжение</p>
 				</div>
@@ -258,30 +258,25 @@
 
 			<div class="row">
 				<div class="col-lg-12 mobile_center">
-					<form for="mail.php" class="form-inline">
-						<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="Magic Slime">
-						<input type="hidden" name="admin_email" value="magicslime.forms@yandex.ru">
-						<input type="hidden" name="form_subject" value="Subscribe">
-						<!-- END Hidden Required Fields -->
-
+					<form action="mail.php" class="form-inline" method="POST">
+						
 						<div class="form-group">
-							<input type="text" class="form-control" id="EmailFeedback" name="Email" placeholder="Email">
+							<input type="email" class="form-control" id="EmailFeedback" name="user_email" placeholder="Email" required>
 						</div>
 
 						<button type="submit" class="btn-feedback">Отправить</button>
+
+						<div class="col-lg-12">
+							<div class="checkbox-form">
+								<input type="checkbox" id="agree" name="subscribe" required>
+								<label for="agree">Даю согласие на обработку персональных данных</label>
+							</div>
+						</div>
+
 					</form>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="checkbox-form">
-						<input type="checkbox" id="agree" name="subscribe">
-						<label for="agree">Даю согласие на обработку персональных данных</label>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -333,8 +328,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-<script src="js/headhesive.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
