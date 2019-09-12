@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Other links -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/thank.css">
+  <link rel="stylesheet" href="css/contacts.css">
   <link rel="stylesheet" href="libs/animate/animate.css">
   <script src="libs/wow/wow.min.js"></script>
   <script>
@@ -78,20 +78,66 @@
   </div>
   
   <div class="section_background wow fadeIn">
-
+    <div class="contacts_title">
+      <h2>Контакты</h2>
+      <p>Свяжитесь с нами, чтобы узнать подробнее об услугах</p>
+    </div>
   </div>
 
-  <div class="Thanks">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-24">
-          <span>Подписка на рассылку</span>
-          <h4>Поздравляем!</h4>
-          <p>Вы подписались на рассылку сайта Magic Slime!
-           Мы будем переодически радовать Вас эксклюзивными скидками и промоакциями!</p>
-        </div>
-      </div>
+  <div class="contacts-container wow fadeIn">
+    <div class="contacts_offer">
+      <p>Связаться с нами можно любым удобным способом.<br>
+      Пишите на почту, позвоните или оставьте заявку ниже.</p>
     </div>
+    
+    <div class="row contacts_block justify-content-between">
+      <div class="contacts_info">
+        <h3>+7 (499) 110-67-69</h3>
+        <div class="contacts_mail">
+          <p><span>Почта:</span> info@magicslime.com</p>
+          <p><span>Для партнёров:</span> partner@magicslime.com</p>
+          <p><span>Для вопросов:</span> help@magicslime.com</p>
+        </div>
+
+        <p>г.Волгоград<br>
+          Работаем с 10:00 до 19:00<br>
+          С Понедельника по Пятницу
+        </p>
+        <div class="icons_after">
+
+          <li class="icons">
+            <i class="fab fa-instagram instagram"></i>
+          </li>
+
+          <li class="icons">
+            <i class="fab fa-vk vk"></i>
+          </li>
+
+        </div>
+
+      </div>
+
+      <div class="contacts_input">
+
+        <form action="mail.php" method="POST">
+            
+            <div class="forms-group">
+              <input type="text" class="form-input" name="user_name" placeholder="Введите Ваше Имя" required>
+
+              <input type="text" class="form-input" name="user_phone" placeholder="+7 (123) 456-78-90" required>
+
+              <input type="text" class="form-input comment" name="user_comment" placeholder="Комментарий">
+
+            </div>
+
+            <button type="submit" class="btn-contacts">Отправить</button>
+
+          </form>
+
+      </div>
+
+    </div>
+
   </div>
 
 

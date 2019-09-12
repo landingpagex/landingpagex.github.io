@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+.section_background {
+	background-image: url("../img/contacts_bg03.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.contacts_block {
+	padding-left: 15px;
+}
+
+.contacts-container {
+	background: #4c4c4d;
+	color: #ccc;
+	padding-left: 200px;
+	padding-bottom: 80px;
+	padding-right: 200px;
+}
+
+.contacts_title {
+	padding-left: 200px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.contacts_title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contacts_title p {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+.contacts_offer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: 'Lora', serif;
+}
+
+.contacts_info {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contacts_info h3 {
+	font-size: 32px;
+	padding-bottom: 10px;
+}
+
+.contacts_info p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.contacts_mail span {
+	color: #fff;
+}
+
+.contacts_mail {
+	padding-bottom: 20px;
+}
+
+.icons_after {
+	padding-top: 10px;
+}
+
+.icons {
+	color: #686868;
+	list-style: none;
+	font-size: 20px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+	background: #fff;
+}
+
+.instagram {
+	padding-left: 5px;
+}
+
+.vk {
+	padding-left: 2.5px;
+}
+
+.instagram:hover {
+	color: #000;
+	box-shadow: none;
+}
+
+.vk:hover {
+	color: #000;
+	box-shadow: none;
+}
+
+.contacts_input {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.forms-group {
+	display: block;
+}
+
+.forms-group input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+
+.forms-group input.comment {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	padding-bottom: 35px;
+}
+
+.form-input {
+	padding-left: 15px;
+}
+
+form button {
+	width: 50%;
+	height: 55px;
+	background-color: #e294f3;
+	border: none;
+}
+
+form button:hover {
+	background-color: #bd6dcf;
+	transition: 0.2s;
+}
+
+.forms-group input:focus::-webkit-input-placeholder {
+	color:transparent;
+}
+
+/* Desktops and laptops -------------------- */
+@media only screen and (max-width: 1224px) {
+
+
+}
+
+/* Laptop ---------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+.contacts_title {
+	padding-left: 100px;
+}
+
+.contacts-container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.contacts-container .row {
+	flex-wrap: nowrap;
+}
+
+}
+
+/* Tablet ---------------------------------- */
+@media only screen and (max-width: 768px) {
+
+.contacts_title {
+	padding-left: 40px;
+}
+
+.contacts-container {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+}
+
+/* Mobile L -------------------------------- */
+@media only screen and (max-width: 430px) {
+
+.contacts_title h2 {
+	font-size: 30px;
+}
+
+.contacts_title p {
+	font-size: 12px;
+}
+
+.section_background {
+	height: 300px;
+}
+
+.contacts_block {
+	padding-left: 0;
+}
+
+.contacts_offer {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.contacts_offer p {
+	font-size: 10px;
+}
+
+.contacts-container .row {
+	flex-wrap: wrap;
+}
+
+.contacts_info {
+	padding-bottom: 20px;
+}
+
+}
+
+/* Mobile M -------------------------------- */
+@media only screen and (max-width: 375px) {
+
+.contacts_offer p {
+	font-size: 18px;
+}
+
+.contacts_info {
+	padding-bottom: 30px;
+}
+
+}
+
+/* Mobile S -------------------------------- */
+@media only screen and (max-width: 320px) {
+
+.contacts_title h2 {
+	font-size: 28px;
+}
+
+.contacts_title p {
+	font-size: 10px;
+}
+
+.section_background {
+	height: 250px;
+}
+
+.contacts_offer p {
+	font-size: 15px;
+}
+
+.contacts_info p {
+	font-size: 15px;
+}
+
+}
+
+/* Mobile XS ------------------------------- */
+@media only screen and (max-width: 240px) {
+
+
+}
