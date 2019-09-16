@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+body {
+	display: flex;
+  	flex-direction: column;
+}
+
 .section_background {
 	background-image: url("../img/contacts_bg03.jpg");
 	background-position: center;
@@ -22,6 +27,7 @@
 	padding-left: 200px;
 	padding-bottom: 80px;
 	padding-right: 200px;
+	flex-grow: 1;
 }
 
 .contacts_title {
