@@ -638,6 +638,8 @@ input#EmailFeedback.form-control:focus {
 	border: 0;
 }
 
+/* Author: Denis Likhotin*/
+
 .feedback button:hover {
 	background-color: #c66ed4;
 	transition: all 0.3s;

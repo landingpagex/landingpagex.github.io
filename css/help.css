@@ -12,6 +12,8 @@
 	justify-content: center;
 }
 
+/* Author: Denis Likhotin*/
+
 @media only screen and (max-width: 768px) {
 .section_background {
     height: 400px;
